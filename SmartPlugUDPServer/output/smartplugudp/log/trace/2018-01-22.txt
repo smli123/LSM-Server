@@ -1,0 +1,52 @@
+16:14:11 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:14:11 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:22:00 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:22:00 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:22:45 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:22:45 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:33:25 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:33:25 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:33:57 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:33:57 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:33:59 [TRACE]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+16:33:59 [TRACE]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+16:33:59 [TRACE]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+16:37:06 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:37:12 [TRACE]	 SEND 	 (192.168.0.100:8000)		 Send Msg To Module Succeed. [0,LOGIN,20180122163712#].<ICallFunction.java: Line 483>
+16:37:12 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:37:40 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:39:02 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:39:07 [TRACE]	 SEND 	 (192.168.0.100:8000)		 Send Msg To Module Succeed. [0,LOGIN,20180122163907#].<ICallFunction.java: Line 483>
+16:39:07 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:40:35 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:40:50 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:42:40 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:42:52 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:42:58 [TRACE]	 SEND 	 (192.168.0.100:8000)		 Send Msg To Module Succeed. [0,LOGIN,20180122164258#].<ICallFunction.java: Line 483>
+16:42:58 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:43:07 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:43:11 [TRACE]	 SEND 	 (192.168.0.100:8000)		 Send Msg To Module Succeed. [0,LOGIN,20180122164311#].<ICallFunction.java: Line 483>
+16:43:11 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:43:13 [TRACE]	 SEND 	 (192.168.0.100:8000)		 Send Msg To Module Succeed. [0,LOGIN,20180122164313#].<ICallFunction.java: Line 483>
+16:43:13 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:43:21 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:43:21 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:43:22 [TRACE]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+16:43:22 [TRACE]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+16:43:22 [TRACE]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+16:43:30 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:43:33 [TRACE]	 SEND 	 (192.168.0.100:8000)		 Send Msg To Module Succeed. [0,LOGIN,20180122164333#].<ICallFunction.java: Line 483>
+16:43:33 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:44:20 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:45:31 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:45:31 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:45:33 [TRACE]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+16:45:33 [TRACE]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+16:45:33 [TRACE]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+16:46:01 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:46:50 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:46:53 [TRACE]	 SEND 	 (192.168.0.100:8000)		 Send Msg To Module Succeed. [0,LOGIN,20180122164653#].<ICallFunction.java: Line 483>
+16:46:53 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:47:40 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:48:27 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>
+16:49:17 [TRACE]	 SELF 	 (/192.168.0.100:8000)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 920>

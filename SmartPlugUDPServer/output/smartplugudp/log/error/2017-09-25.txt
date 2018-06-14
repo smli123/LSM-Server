@@ -1,0 +1,3 @@
+10:16:15 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:16:16 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:17:46 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>

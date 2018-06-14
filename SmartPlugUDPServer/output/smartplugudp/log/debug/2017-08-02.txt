@@ -1,0 +1,210 @@
+17:37:37 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 179>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 180>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 181>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 182>
+17:37:37 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 183>
+17:37:37 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@27973e9b<DataSourcePool.java: Line 46>
+17:37:37 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@3941a79c<DataSourcePool.java: Line 46>
+17:37:37 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@3d494fbf<DataSourcePool.java: Line 46>
+17:37:37 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@7cd84586<DataSourcePool.java: Line 46>
+17:37:37 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@70177ecd<DataSourcePool.java: Line 46>
+17:37:37 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@cc34f4d<DataSourcePool.java: Line 46>
+17:37:37 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@79fc0f2f<DataSourcePool.java: Line 46>
+17:37:37 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@49097b5d<DataSourcePool.java: Line 46>
+17:37:37 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@7c3df479<DataSourcePool.java: Line 46>
+17:37:38 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@76fb509a<DataSourcePool.java: Line 46>
+17:37:38 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+17:37:38 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+17:38:31 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 179>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 180>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 181>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 182>
+17:38:31 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 183>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@27973e9b<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@3941a79c<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@3d494fbf<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@7cd84586<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@70177ecd<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@cc34f4d<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@79fc0f2f<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@49097b5d<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@7c3df479<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@76fb509a<DataSourcePool.java: Line 46>
+17:38:31 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+17:38:31 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+17:41:34 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:44:28 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 179>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 180>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 181>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 182>
+17:44:42 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 183>
+17:45:33 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 strIRFileName=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/IR_AirCon.json<ServerParamConfiger.java: Line 179>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 180>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 181>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 182>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 183>
+17:45:38 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 184>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@5f375618<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@4439f31e<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@56f4468b<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@643b1d11<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@51efea79<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@7f9a81e8<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@58651fd0<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@457e2f02<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@4678c730<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@cc285f4<DataSourcePool.java: Line 46>
+17:45:44 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+17:45:47 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+17:47:21 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 strIRFileName=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/IR_AirCon.json<ServerParamConfiger.java: Line 179>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 180>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 181>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 182>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 183>
+17:47:21 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 184>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@5f375618<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@4439f31e<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@56f4468b<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@643b1d11<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@51efea79<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@7f9a81e8<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@58651fd0<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@457e2f02<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@4678c730<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@cc285f4<DataSourcePool.java: Line 46>
+17:47:21 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+17:47:21 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+17:48:10 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 strIRFileName=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/IR_AirCon.json<ServerParamConfiger.java: Line 179>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 180>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 181>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 182>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 183>
+17:48:10 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 184>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@5f375618<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@4439f31e<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@56f4468b<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@643b1d11<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@51efea79<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@7f9a81e8<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@58651fd0<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@457e2f02<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@4678c730<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@cc285f4<DataSourcePool.java: Line 46>
+17:48:11 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+17:48:11 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+17:48:49 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 strIRFileName=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/IR_AirCon.json<ServerParamConfiger.java: Line 179>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 180>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 181>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 182>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 183>
+17:48:49 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 184>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@5f375618<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@4439f31e<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@56f4468b<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@643b1d11<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@51efea79<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@7f9a81e8<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@58651fd0<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@457e2f02<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@4678c730<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@cc285f4<DataSourcePool.java: Line 46>
+17:48:49 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+17:48:49 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>

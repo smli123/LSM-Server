@@ -1,0 +1,54 @@
+09:49:53 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+09:49:53 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+09:50:11 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+09:50:11 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+09:50:13 [TRACE]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+09:50:13 [TRACE]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+09:50:13 [TRACE]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+09:51:48 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x20000004).<ServerWorkThread.java: Line 894>
+09:51:53 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095153,APPLOGIN,smli123hz,0,00000000,smli123@163.com#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+09:51:53 [TRACE]	 SELF 	 (192.168.0.112:5002)	 Succeed to Login(smli123hz). <AppLoginMsgHandle.java: Line 119>
+09:51:53 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:51:54 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095154,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+09:51:54 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:51:56 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095156,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+09:51:56 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:53:34 [TRACE]	 SEND 	 (192.168.0.118:5003)		 Send Msg To Module Succeed. [20171014112104,LOGIN,20171022095334#].<ICallFunction.java: Line 483>
+09:53:34 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095334,APPNOTIFYONLINE,smli123hz,648534,00000000,1#] ret_code:succeed to execute. APP:(smli123hz) ModuleID:(648534)<ICallFunction.java: Line 400>
+09:53:34 [TRACE]	 SELF 	 (/192.168.0.118:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:53:34 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095334,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+09:53:34 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:53:41 [TRACE]	 SEND 	 (192.168.0.112:5002)		 Send Msg To Module Succeed. [20171014112109,LOGIN,20171022095341#].<ICallFunction.java: Line 483>
+09:53:41 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095341,APPNOTIFYONLINE,smli123hz,648534,00000000,1#] ret_code:succeed to execute. APP:(smli123hz) ModuleID:(648534)<ICallFunction.java: Line 400>
+09:53:41 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:53:42 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095342,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+09:53:42 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:53:45 [TRACE]	 SEND 	 (192.168.0.112:5002)		 Send Msg To Module Succeed. [20171014112119,LOGIN,20171022095345#].<ICallFunction.java: Line 483>
+09:53:45 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095345,APPNOTIFYONLINE,smli123hz,648534,00000000,1#] ret_code:succeed to execute. APP:(smli123hz) ModuleID:(648534)<ICallFunction.java: Line 400>
+09:53:45 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:53:46 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095346,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+09:53:46 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:54:02 [TRACE]	 SELF 	 (/192.168.0.118:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:54:03 [TRACE]	 SEND 	 (192.168.0.118:5003)	 [20171014112119,APPADDTIMER,smli123hz,648534,1,0,1111111,09:56:38,09:57:38#] Notify Module Success (648534)<ICallFunction.java: Line 461>
+09:54:03 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000001).<ServerWorkThread.java: Line 894>
+09:54:04 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095404,APPADDTIMER,smli123hz,648534,00000000#] succeed to execute. (smli123hz)<ICallFunction.java: Line 170>
+09:54:04 [TRACE]	 SELF 	 (192.168.0.118:5003)	 App(smli123hz) [Database] Succeed to add timer of module(648534). <ModuleAddTimerMsgHandle.java: Line 129>
+09:54:04 [TRACE]	 SELF 	 (/192.168.0.118:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:54:25 [TRACE]	 SEND 	 (192.168.0.118:5003)	 [20171014112119,APPADDTIMER,smli123hz,648534,2,1,1111111,09:56:59,09:57:59#] Notify Module Success (648534)<ICallFunction.java: Line 461>
+09:54:25 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000001).<ServerWorkThread.java: Line 894>
+09:54:26 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095426,APPADDTIMER,smli123hz,648534,00000000#] succeed to execute. (smli123hz)<ICallFunction.java: Line 170>
+09:54:26 [TRACE]	 SELF 	 (192.168.0.118:5003)	 App(smli123hz) [Database] Succeed to add timer of module(648534). <ModuleAddTimerMsgHandle.java: Line 129>
+09:54:26 [TRACE]	 SELF 	 (/192.168.0.118:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:54:48 [TRACE]	 SEND 	 (192.168.0.118:5003)		 Send Msg To Module Succeed. [20171014112104,LOGIN,20171022095448#].<ICallFunction.java: Line 483>
+09:54:48 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095448,APPNOTIFYONLINE,smli123hz,648534,00000000,1#] ret_code:succeed to execute. APP:(smli123hz) ModuleID:(648534)<ICallFunction.java: Line 400>
+09:54:48 [TRACE]	 SELF 	 (/192.168.0.118:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:54:48 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095448,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,2,1,0,1,1111111,09:56:38,09:57:38,2,1,1,1111111,09:56:59,09:57:59,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+09:54:48 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:54:50 [TRACE]	 SEND 	 (192.168.0.112:5002)		 Send Msg To Module Succeed. [20171014112109,LOGIN,20171022095450#].<ICallFunction.java: Line 483>
+09:54:50 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095450,APPNOTIFYONLINE,smli123hz,648534,00000000,1#] ret_code:succeed to execute. APP:(smli123hz) ModuleID:(648534)<ICallFunction.java: Line 400>
+09:54:50 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:54:50 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095450,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,2,1,0,1,1111111,09:56:38,09:57:38,2,1,1,1111111,09:56:59,09:57:59,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+09:54:50 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:54:58 [TRACE]	 SEND 	 (192.168.0.112:5002)	 [20171022095458,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,2,1,0,1,1111111,09:56:38,09:57:38,2,1,1,1111111,09:56:59,09:57:59,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+09:54:58 [TRACE]	 SELF 	 (/192.168.0.112:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+09:55:26 [TRACE]	 SELF 	 (/192.168.0.118:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>

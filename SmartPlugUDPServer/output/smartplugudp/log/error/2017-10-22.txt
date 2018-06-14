@@ -1,0 +1,1 @@
+09:51:48 [ERROR]	 SEND 	 (192.168.0.112:5002)	 [0,APPLOGIN,smli123,0,20000004#] user name not registered. (smli123)<ICallFunction.java: Line 316>

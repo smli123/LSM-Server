@@ -1,0 +1,61 @@
+17:24:47 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:24:47 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:24:49 [TRACE]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+17:24:49 [TRACE]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+17:24:49 [TRACE]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+17:24:50 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x20000001).<ServerWorkThread.java: Line 913>
+17:24:50 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104172450,APPLOGIN,hexiaoxu,0,00000000,3624090@qq.com#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:24:50 [TRACE]	 SELF 	 (192.168.0.108:5002)	 Succeed to Login(hexiaoxu). <AppLoginMsgHandle.java: Line 119>
+17:24:50 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:24:50 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104172450,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:24:50 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:26:23 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104172623,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:26:23 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:26:25 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104172625,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:26:25 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:26:26 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104172626,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:26:27 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:26:27 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104172627,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:26:27 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:26:27 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104172627,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:26:27 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:30:22 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173022,APPLOGIN,hexiaoxu,0,00000000,3624090@qq.com#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:30:22 [TRACE]	 SELF 	 (192.168.0.108:5002)	 Succeed to Login(hexiaoxu). <AppLoginMsgHandle.java: Line 119>
+17:30:22 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:30:22 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173022,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:30:22 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:30:44 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173044,APPQRYPLUG,hexiaoxu,0,00000000,1,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:30:44 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:33:14 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173314,APPLOGIN,hexiaoxu,0,00000000,3624090@qq.com#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:33:14 [TRACE]	 SELF 	 (192.168.0.108:5002)	 Succeed to Login(hexiaoxu). <AppLoginMsgHandle.java: Line 119>
+17:33:14 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:33:14 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173314,APPQRYPLUG,hexiaoxu,0,00000000,1,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:33:14 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:33:45 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173345,APPQRYPLUG,hexiaoxu,0,00000000,1,648044,Thingzdo_648044_1_3,60:01:94:09:e3:6c,20170924B1V2.7,1_3,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:33:45 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:34:00 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173400,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:34:00 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:34:04 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173404,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:34:04 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:34:04 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173404,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:34:04 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:34:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173448,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:34:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:35:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173548,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:35:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:36:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173648,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:36:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:37:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173748,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:37:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:38:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173848,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:38:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:39:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104173948,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:39:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:40:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104174048,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:40:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:41:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104174148,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:41:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:42:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104174248,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:42:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>
+17:43:48 [TRACE]	 SEND 	 (192.168.0.108:5002)	 [20180104174348,APPQRYCHARGE,hexiaoxu,0,00000000,0.000000,0.000000,0.000000,0.000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+17:43:48 [TRACE]	 SELF 	 (/192.168.0.108:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 913>

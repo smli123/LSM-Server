@@ -1,0 +1,53 @@
+09:48:04 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+09:48:20 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+11:00:29 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+18:13:06 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [20170921181306,APPADDSCENE,smli123hz,648534,10000002#] faild to operate db. (smli123hz)<ICallFunction.java: Line 179>
+18:16:07 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:16:07 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:16:08 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:16:58 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:16:58 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:16:58 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:16:58 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:17:48 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:17:48 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:17:48 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:17:48 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:18:37 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:18:37 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:18:38 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:18:38 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:20:54 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [20170921182054,APPADDSCENE,smli123hz,648534,10000002#] faild to operate db. (smli123hz)<ICallFunction.java: Line 179>
+18:23:24 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [20170921182324,APPADDSCENE,smli123hz,648534,10000002#] faild to operate db. (smli123hz)<ICallFunction.java: Line 179>
+18:23:34 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [20170921182334,APPADDSCENE,smli123hz,648534,10000002#] faild to operate db. (smli123hz)<ICallFunction.java: Line 179>
+18:36:57 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 175>
+18:36:58 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 175>
+18:38:39 [ERROR]	 SELF 	 (648534)	 Failed to DeleteTimerInfo:LOGIN<ModuleLoginHandle.java: Line 109>
+18:38:39 [ERROR]	 SELF 	 (648534)	 Failed to DeleteTimerInfo:LOGIN<ModuleLoginHandle.java: Line 109>
+18:38:39 [ERROR]	 SELF 	 (648534)	 Failed to DeleteTimerInfo:LOGIN<ModuleLoginHandle.java: Line 109>
+18:39:29 [ERROR]	 SELF 	 (648534)	 Failed to DeleteTimerInfo:LOGIN<ModuleLoginHandle.java: Line 109>
+18:39:29 [ERROR]	 SELF 	 (648534)	 Failed to DeleteTimerInfo:LOGIN<ModuleLoginHandle.java: Line 109>
+18:39:29 [ERROR]	 SELF 	 (648534)	 Failed to DeleteTimerInfo:LOGIN<ModuleLoginHandle.java: Line 109>
+18:39:29 [ERROR]	 SELF 	 (648534)	 Failed to DeleteTimerInfo:LOGIN<ModuleLoginHandle.java: Line 109>
+18:48:53 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:48:53 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:48:54 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:48:54 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:49:28 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:49:28 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:50:17 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:50:17 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:50:18 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:51:08 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:51:08 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:51:08 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:51:08 [ERROR]	 SELF 	 (648534)	 Failed to InsertTimerInfo:LOGIN<ModuleLoginHandle.java: Line 174>
+18:51:58 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+18:51:58 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+18:51:58 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+18:52:48 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+18:52:48 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+18:52:48 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+18:52:48 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+18:53:34 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [20170921185334,APPMODIFYSCENE,smli123hz,648534,10000002#] faild to operate db. (smli123hz)<ICallFunction.java: Line 179>
+18:53:34 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [20170921185334,APPMODIFYSCENE,smli123hz,648534,10000002#] faild to operate db. (smli123hz)<ICallFunction.java: Line 179>

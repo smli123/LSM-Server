@@ -1,0 +1,314 @@
+14:26:06 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 1 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+14:26:07 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+14:26:08 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+14:26:09 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+14:26:10 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+14:31:47 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:27 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:29 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:30 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:31 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:31 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:32 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:33 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:34 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:35 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:00:11 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:00:14 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

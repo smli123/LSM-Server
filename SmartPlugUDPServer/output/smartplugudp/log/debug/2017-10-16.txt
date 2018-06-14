@@ -1,0 +1,354 @@
+15:22:13 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 strIRFileName=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/IR_AirCon.json<ServerParamConfiger.java: Line 179>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 180>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 181>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 182>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 183>
+15:22:13 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 184>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@3a82f6ef<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@36d4b5c<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@396a51ab<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@62ee68d8<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@5419f379<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@548a9f61<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@2a5ca609<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@8bd1b6a<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@2b98378d<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@4c70fda8<DataSourcePool.java: Line 46>
+15:22:13 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+15:22:13 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+15:22:15 [DEBUG]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+15:22:15 [DEBUG]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+15:22:15 [DEBUG]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+15:22:21 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 20171016152338,LOGIN,Thingzdo,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,4,0,255,0,0,0,0,0#<ServerWorkThread.java: Line 870>
+15:22:21 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:22:21 [DEBUG]	 SELF 	 Start Heart Timer:648534, timer info:java.util.Timer@22a628a4<ServerWorkThread.java: Line 454>
+15:22:21 [DEBUG]	 SEND 	 (192.168.0.101:5003)		 Send Msg To Module Succeed. [20171016152338,LOGIN,20171016152221#].<ICallFunction.java: Line 483>
+15:22:21 [DEBUG]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:22:21 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:22:41 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:22:41 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:22:41 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:22:41 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:23:16 [DEBUG]	 SELF 	 [648534]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@300d2ea7<ModuleHeartBeatTask.java: Line 25>
+15:23:16 [DEBUG]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@300d2ea7<ModuleHeartBeatTask.java: Line 49>
+15:23:17 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 0,APPLOGIN,smli123,V1.2.0B0117,123456#<ServerWorkThread.java: Line 806>
+15:23:17 [DEBUG]	 SELF 	 Enter App Login(username:smli123) <AppLoginMsgHandle.java: Line 35>
+15:23:17 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:23:17 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [0,APPLOGIN,smli123,0,20000004#] user name not registered. (smli123)<ICallFunction.java: Line 316>
+15:23:17 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x20000004).<ServerWorkThread.java: Line 894>
+15:23:22 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 0,APPLOGIN,smli123hz,V1.2.0B0117,123456#<ServerWorkThread.java: Line 806>
+15:23:22 [DEBUG]	 SELF 	 Enter App Login(username:smli123hz) <AppLoginMsgHandle.java: Line 35>
+15:23:22 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:23:22 [DEBUG]	 SELF 	 app username:smli123hz, socket:(192.168.0.107:5002)<AppLoginMsgHandle.java: Line 111>
+15:23:22 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152322,APPLOGIN,smli123hz,0,00000000,smli123@163.com#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+15:23:22 [DEBUG]	 SELF 	 (192.168.0.107:5002)	 Succeed to Login(smli123hz). <AppLoginMsgHandle.java: Line 119>
+15:23:22 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:23:22 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 20171016152322,APPQRYPLUG,smli123hz#<ServerWorkThread.java: Line 806>
+15:23:22 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:23:22 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152322,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+15:23:22 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:23:26 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 20171016152322,APPPOWER,smli123hz,648534,1#<ServerWorkThread.java: Line 806>
+15:23:26 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:23:26 [DEBUG]	 SEND 	 (192.168.0.101:5003)	 [20171016152338,APPPOWER,smli123hz,648534,1#] Notify Module Success (648534)<ICallFunction.java: Line 461>
+15:23:26 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:23:27 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 20171016152326,POWER,smli123hz,648534,0,5,20171016152338,APPPOWER,smli123hz,648534,1#<ServerWorkThread.java: Line 870>
+15:23:27 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:23:27 [DEBUG]	 SEND 	 APP username:smli123hz , socket:192.168.0.107:5002<ICallFunction.java: Line 254>
+15:23:27 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152327,APPPOWER,smli123hz,648534,00000000,5#] succeed to execute. (smli123hz)<ICallFunction.java: Line 269>
+15:23:27 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:23:27 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 20171016152327,APPPOWER,smli123hz,648534,0#<ServerWorkThread.java: Line 806>
+15:23:27 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:23:27 [DEBUG]	 SEND 	 (192.168.0.101:5003)	 [20171016152326,APPPOWER,smli123hz,648534,0#] Notify Module Success (648534)<ICallFunction.java: Line 461>
+15:23:27 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:23:28 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 20171016152328,POWER,smli123hz,648534,0,4,20171016152326,APPPOWER,smli123hz,648534,0#<ServerWorkThread.java: Line 870>
+15:23:28 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:23:28 [DEBUG]	 SEND 	 APP username:smli123hz , socket:192.168.0.107:5002<ICallFunction.java: Line 254>
+15:23:28 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152328,APPPOWER,smli123hz,648534,00000000,4#] succeed to execute. (smli123hz)<ICallFunction.java: Line 269>
+15:23:28 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:23:31 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:23:31 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:23:31 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:23:31 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:23:50 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 strIRFileName=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/IR_AirCon.json<ServerParamConfiger.java: Line 179>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 180>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 181>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 182>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 183>
+15:23:50 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 184>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@3a82f6ef<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@36d4b5c<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@396a51ab<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@62ee68d8<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@5419f379<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@548a9f61<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@2a5ca609<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@8bd1b6a<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@2b98378d<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@4c70fda8<DataSourcePool.java: Line 46>
+15:23:50 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+15:23:50 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+15:23:52 [DEBUG]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+15:23:52 [DEBUG]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+15:23:52 [DEBUG]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+15:24:18 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 20171016152328,APPLOGOUT,smli123hz#<ServerWorkThread.java: Line 806>
+15:24:18 [DEBUG]	 SEND 	 (/192.168.0.107:5002)	 SEND: 0,APPLOGOUT,smli123hz,000000,2#<ServerWorkThread.java: Line 820>
+15:24:18 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x20000001).<ServerWorkThread.java: Line 894>
+15:24:19 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 0,APPLOGIN,smli123hz,V1.2.0B0117,123456#<ServerWorkThread.java: Line 806>
+15:24:19 [DEBUG]	 SELF 	 Enter App Login(username:smli123hz) <AppLoginMsgHandle.java: Line 35>
+15:24:19 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:24:19 [DEBUG]	 SELF 	 app username:smli123hz, socket:(192.168.0.107:5002)<AppLoginMsgHandle.java: Line 111>
+15:24:19 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152419,APPLOGIN,smli123hz,0,00000000,smli123@163.com#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+15:24:19 [DEBUG]	 SELF 	 (192.168.0.107:5002)	 Succeed to Login(smli123hz). <AppLoginMsgHandle.java: Line 119>
+15:24:19 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:24:19 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 20171016152419,APPQRYPLUG,smli123hz#<ServerWorkThread.java: Line 806>
+15:24:19 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:24:19 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152419,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+15:24:19 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:24:21 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:24:21 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:24:21 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,1#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:24:21 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:24:21 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 20171016152421,LOGIN,Thingzdo,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,4,0,255,0,0,0,0,0#<ServerWorkThread.java: Line 870>
+15:24:21 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:25:09 [DEBUG]	 SELF 	 Start Heart Timer:648534, timer info:java.util.Timer@79a0734e<ServerWorkThread.java: Line 454>
+15:25:09 [DEBUG]	 SEND 	 (192.168.0.101:5003)		 Send Msg To Module Succeed. [20171016152421,LOGIN,20171016152509#].<ICallFunction.java: Line 483>
+15:25:09 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152509,APPNOTIFYONLINE,smli123hz,648534,00000000,1#] ret_code:succeed to execute. APP:(smli123hz) ModuleID:(648534)<ICallFunction.java: Line 400>
+15:25:09 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:25:09 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 20171016152509,APPQRYPLUG,smli123hz#<ServerWorkThread.java: Line 806>
+15:25:09 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:25:09 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152509,APPQRYPLUG,smli123hz,0,00000000,4,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+15:25:09 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:25:11 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:25:11 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:25:11 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:25:11 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:25:59 [DEBUG]	 RECV 	 (/192.168.0.109:8080)	 FromModule: 20171016111837,LOGIN,thingzdo,800006,smli123,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,0,0,255,0,0,0#<ServerWorkThread.java: Line 870>
+15:25:59 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:26:01 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:26:01 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:26:01 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:26:01 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:26:04 [DEBUG]	 SELF 	 [648534]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 25>
+15:26:04 [DEBUG]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 49>
+15:26:21 [DEBUG]	 SELF 	 Start Heart Timer:800006, timer info:java.util.Timer@5f1d6496<ServerWorkThread.java: Line 454>
+15:26:21 [DEBUG]	 SEND 	 (192.168.0.101:5003)		 Send Msg To Module Succeed. [20171016111837,LOGIN,20171016152621#].<ICallFunction.java: Line 483>
+15:26:21 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:26:30 [DEBUG]	 RECV 	 (/192.168.0.109:8080)	 FromModule: 20171016111837,LOGIN,Thingzdo,800006,smli123,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,0,0,255,0,0,0#<ServerWorkThread.java: Line 870>
+15:26:30 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:26:30 [DEBUG]	 SELF 	 Stop Heart Timer:800006, timer info:java.util.Timer@5f1d6496<ServerWorkThread.java: Line 463>
+15:26:33 [DEBUG]	 SELF 	 Start Heart Timer:800006, timer info:java.util.Timer@1e2e2421<ServerWorkThread.java: Line 454>
+15:26:33 [DEBUG]	 SEND 	 (192.168.0.109:8080)		 Send Msg To Module Succeed. [20171016111837,LOGIN,20171016152633#].<ICallFunction.java: Line 483>
+15:26:33 [DEBUG]	 SELF 	 (/192.168.0.109:8080)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:26:47 [DEBUG]	 RECV 	 (/192.168.0.109:8080)	 FromModule: 20171016111837,LOGIN,smli123,800006,smli123,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,0,0,255,0,0,0#<ServerWorkThread.java: Line 870>
+15:26:47 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:26:47 [DEBUG]	 SELF 	 Stop Heart Timer:800006, timer info:java.util.Timer@1e2e2421<ServerWorkThread.java: Line 463>
+15:26:51 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:26:51 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:26:51 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:26:51 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:26:59 [DEBUG]	 SELF 	 [648534]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 25>
+15:26:59 [DEBUG]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 49>
+15:27:07 [DEBUG]	 SELF 	 Start Heart Timer:800006, timer info:java.util.Timer@5b4a291c<ServerWorkThread.java: Line 454>
+15:27:07 [DEBUG]	 SEND 	 (192.168.0.101:5003)		 Send Msg To Module Succeed. [20171016111837,LOGIN,20171016152707#].<ICallFunction.java: Line 483>
+15:27:07 [DEBUG]	 SEND 	 user(smli123) is offline.<ICallFunction.java: Line 374>
+15:27:07 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:27:30 [DEBUG]	 RECV 	 (/192.168.0.109:8080)	 FromModule: 20171016111837,LOGIN,smli123hz,800006,smli123,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,0,0,255,0,0,0#<ServerWorkThread.java: Line 870>
+15:27:30 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:27:30 [DEBUG]	 SELF 	 Stop Heart Timer:800006, timer info:java.util.Timer@5b4a291c<ServerWorkThread.java: Line 463>
+15:27:41 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:27:41 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:27:41 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:27:41 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:27:51 [DEBUG]	 SELF 	 Start Heart Timer:800006, timer info:java.util.Timer@5b1d1a90<ServerWorkThread.java: Line 454>
+15:27:51 [DEBUG]	 SEND 	 (192.168.0.101:5003)		 Send Msg To Module Succeed. [20171016111837,LOGIN,20171016152751#].<ICallFunction.java: Line 483>
+15:27:51 [DEBUG]	 SEND 	 user(smli123) is offline.<ICallFunction.java: Line 374>
+15:27:51 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:27:54 [DEBUG]	 SELF 	 [648534]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 25>
+15:27:54 [DEBUG]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 49>
+15:28:17 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 20171016152509,APPQRYPLUG,smli123hz#<ServerWorkThread.java: Line 806>
+15:28:17 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:28:17 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152817,APPQRYPLUG,smli123hz,0,00000000,5,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,0,0,800006,smli123,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,1,0,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+15:28:17 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:28:31 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:28:31 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:28:31 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:28:31 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:28:46 [DEBUG]	 SELF 	 [800006]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@6f9b61cb<ModuleHeartBeatTask.java: Line 25>
+15:28:46 [DEBUG]	 SELF 	 [800006]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@6f9b61cb<ModuleHeartBeatTask.java: Line 49>
+15:28:49 [DEBUG]	 SELF 	 [648534]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 25>
+15:28:49 [DEBUG]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 49>
+15:29:21 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:29:21 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:29:21 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:29:21 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:29:26 [DEBUG]	 RECV 	 (/192.168.0.109:8080)	 FromModule: 20171016111837,LOGIN,smli123hz,800006,800006,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,0,0,255,0,0,0#<ServerWorkThread.java: Line 870>
+15:29:26 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:29:26 [DEBUG]	 SELF 	 Stop Heart Timer:800006, timer info:java.util.Timer@5b1d1a90<ServerWorkThread.java: Line 463>
+15:29:38 [DEBUG]	 SELF 	 Start Heart Timer:800006, timer info:java.util.Timer@2fb22ec1<ServerWorkThread.java: Line 454>
+15:29:38 [DEBUG]	 SEND 	 (192.168.0.109:8080)		 Send Msg To Module Succeed. [20171016111837,LOGIN,20171016152938#].<ICallFunction.java: Line 483>
+15:29:38 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152938,APPNOTIFYONLINE,smli123hz,800006,00000000,1#] ret_code:succeed to execute. APP:(smli123hz) ModuleID:(800006)<ICallFunction.java: Line 400>
+15:29:38 [DEBUG]	 SELF 	 (/192.168.0.109:8080)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:29:39 [DEBUG]	 RECV 	 (/192.168.0.107:5002)	 FromAPP: 20171016152938,APPQRYPLUG,smli123hz#<ServerWorkThread.java: Line 806>
+15:29:39 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:29:39 [DEBUG]	 SEND 	 (192.168.0.107:5002)	 [20171016152939,APPQRYPLUG,smli123hz,0,00000000,5,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0,648031,hh,60:01:94:09:e3:5f,20170605A1V1.S,1_2,2,0,0,192.168.1.1,0,1,1,255,0,0,648044,Thingzdo_648044_1_2,60:01:94:09:e3:6c,20170924B1V2.7,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,1,4,192.168.1.1,0,255,0,0,0,0,800006,800006,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,1,0,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (smli123hz)<ICallFunction.java: Line 221>
+15:29:39 [DEBUG]	 SELF 	 (/192.168.0.107:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:29:44 [DEBUG]	 SELF 	 [648534]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 25>
+15:29:44 [DEBUG]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb<ModuleHeartBeatTask.java: Line 49>
+15:30:11 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:30:11 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:30:11 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:30:11 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:30:16 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 strIRFileName=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/IR_AirCon.json<ServerParamConfiger.java: Line 179>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 180>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 181>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 182>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 183>
+15:30:16 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 184>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@3a82f6ef<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@36d4b5c<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@396a51ab<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@62ee68d8<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@5419f379<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@548a9f61<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@2a5ca609<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@8bd1b6a<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@2b98378d<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@4c70fda8<DataSourcePool.java: Line 46>
+15:30:16 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+15:30:16 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+15:30:17 [DEBUG]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+15:30:17 [DEBUG]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+15:30:17 [DEBUG]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+15:30:18 [DEBUG]	 RECV 	 (/192.168.0.109:8080)	 FromModule: 20171016111837,LOGIN,smli123hz,800006,800006,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,0,0,255,0,0,0#<ServerWorkThread.java: Line 870>
+15:30:18 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:30:38 [DEBUG]	 SELF 	 Start Heart Timer:800006, timer info:java.util.Timer@700b671f<ServerWorkThread.java: Line 454>
+15:30:38 [DEBUG]	 SEND 	 (192.168.0.109:8080)		 Send Msg To Module Succeed. [20171016111837,LOGIN,20171016153038#].<ICallFunction.java: Line 483>
+15:30:38 [DEBUG]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:30:38 [DEBUG]	 SELF 	 (/192.168.0.109:8080)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:30:50 [DEBUG]	 RECV 	 (/192.168.0.109:8080)	 FromModule: 20171016111837,LOGIN,laowang,800006,800006,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,0,0,255,0,0,0#<ServerWorkThread.java: Line 870>
+15:30:50 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:30:50 [DEBUG]	 SELF 	 Stop Heart Timer:800006, timer info:java.util.Timer@700b671f<ServerWorkThread.java: Line 463>
+15:31:01 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:31:01 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:31:01 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,1#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:31:01 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:31:01 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 20171016153100,LOGIN,Thingzdo,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,4,0,255,0,0,0,0,0#<ServerWorkThread.java: Line 870>
+15:31:01 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 8<DataSourcePool.java: Line 90>
+15:31:02 [DEBUG]	 SELF 	 Start Heart Timer:800006, timer info:java.util.Timer@4755e795<ServerWorkThread.java: Line 454>
+15:31:02 [DEBUG]	 SEND 	 (192.168.0.101:5003)		 Send Msg To Module Succeed. [20171016111837,LOGIN,20171016153102#].<ICallFunction.java: Line 483>
+15:31:02 [DEBUG]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:31:02 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:31:02 [DEBUG]	 SELF 	 Start Heart Timer:648534, timer info:java.util.Timer@2bbfdb3d<ServerWorkThread.java: Line 454>
+15:31:02 [DEBUG]	 SEND 	 (192.168.0.101:5003)		 Send Msg To Module Succeed. [20171016153100,LOGIN,20171016153102#].<ICallFunction.java: Line 483>
+15:31:02 [DEBUG]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:31:02 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:31:51 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:31:51 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:31:51 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:31:51 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:31:57 [DEBUG]	 SELF 	 [800006]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@2906cf34<ModuleHeartBeatTask.java: Line 25>
+15:31:57 [DEBUG]	 SELF 	 [800006]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@2906cf34<ModuleHeartBeatTask.java: Line 49>
+15:31:57 [DEBUG]	 SELF 	 [648534]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@23ca3a31<ModuleHeartBeatTask.java: Line 25>
+15:31:57 [DEBUG]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@23ca3a31<ModuleHeartBeatTask.java: Line 49>
+15:32:32 [DEBUG]	 RECV 	 (/192.168.0.109:8080)	 FromModule: 20171016111837,LOGIN,laowang2,800006,800006,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,0,0,255,0,0,0#<ServerWorkThread.java: Line 870>
+15:32:32 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:32:32 [DEBUG]	 SELF 	 Stop Heart Timer:800006, timer info:java.util.Timer@4755e795<ServerWorkThread.java: Line 463>
+15:32:41 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:32:41 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:32:41 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,0#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:32:41 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:32:52 [DEBUG]	 SELF 	 [648534]Curr Timer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@23ca3a31<ModuleHeartBeatTask.java: Line 25>
+15:32:52 [DEBUG]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@23ca3a31<ModuleHeartBeatTask.java: Line 49>
+15:33:22 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 strIRFileName=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/IR_AirCon.json<ServerParamConfiger.java: Line 179>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 180>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 181>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 182>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 183>
+15:33:22 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 184>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@3a82f6ef<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@36d4b5c<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@396a51ab<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@62ee68d8<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@5419f379<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@548a9f61<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@2a5ca609<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@8bd1b6a<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@2b98378d<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@4c70fda8<DataSourcePool.java: Line 46>
+15:33:23 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+15:33:23 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+15:33:24 [DEBUG]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+15:33:24 [DEBUG]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+15:33:24 [DEBUG]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+15:33:25 [DEBUG]	 RECV 	 (/192.168.0.109:8080)	 FromModule: 20171016111837,LOGIN,laowang2,800006,800006,60:01:94:09:e1:fe,20170311B1V1.G,1_2,2,0,0,255,0,0,0#<ServerWorkThread.java: Line 870>
+15:33:25 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+15:33:31 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 0,HEART,username,648534#<ServerWorkThread.java: Line 870>
+15:33:31 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Resv HEART<ModuleHeartMsgHandle.java: Line 35>
+15:33:31 [DEBUG]	 SEND 	 (/192.168.0.101:5003)	 [0,Server_Echo,username,648534,1#] Succeed to Send HEART Echo<ModuleHeartMsgHandle.java: Line 46>
+15:33:31 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:33:31 [DEBUG]	 RECV 	 (/192.168.0.101:5003)	 FromModule: 20171016153330,LOGIN,Thingzdo,648534,Thingzdo_648534_1_2,60:01:94:09:e5:56,20170924B1V2.7,1_2,2,4,0,255,0,0,0,0,0#<ServerWorkThread.java: Line 870>
+15:33:31 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 8<DataSourcePool.java: Line 90>
+15:33:36 [DEBUG]	 SELF 	 Start Heart Timer:648534, timer info:java.util.Timer@fb9ef18<ServerWorkThread.java: Line 454>
+15:33:36 [DEBUG]	 SELF 	 Start Heart Timer:800006, timer info:java.util.Timer@3bd6ab8a<ServerWorkThread.java: Line 454>
+15:33:36 [DEBUG]	 SEND 	 (192.168.0.101:5003)		 Send Msg To Module Succeed. [20171016153330,LOGIN,20171016153336#].<ICallFunction.java: Line 483>
+15:33:36 [DEBUG]	 SEND 	 (192.168.0.101:5003)		 Send Msg To Module Succeed. [20171016111837,LOGIN,20171016153336#].<ICallFunction.java: Line 483>
+15:33:36 [DEBUG]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:33:36 [DEBUG]	 SEND 	 user(laowang2) is offline.<ICallFunction.java: Line 374>
+15:33:36 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>
+15:33:36 [DEBUG]	 SELF 	 (/192.168.0.101:5003)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 894>

@@ -1,0 +1,281 @@
+10:37:22 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+10:37:23 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+10:37:24 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+10:37:25 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 1 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+10:37:26 [EXCEPT]	 SELF <DataSourcePool.java: Line 50>	com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.ConnectException
+MESSAGE: Connection refused: connect
+
+STACKTRACE:
+
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:256)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:271)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2847)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1555)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.thingzdo.platform.DBTool.DataSourcePool.Init(DataSourcePool.java:45)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Init(ServerDBMgr.java:22)
+	at com.thingzdo.smartplug.udpserver.main.Main.main(Main.java:22)
+14:30:32 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 296>	<info:>java.sql.SQLException: Field 'module_name' doesn't have a default value
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Statement.executeUpdate(Statement.java:1402)
+	at com.mysql.jdbc.Statement.executeUpdate(Statement.java:1317)
+	at com.thingzdo.platform.DBTool.DBTool.executeUpdate(DBTool.java:132)
+	at com.thingzdo.platform.DBTool.DBTool.insert(DBTool.java:159)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.InsertModuleCharge(ServerDBMgr.java:292)
+	at com.thingzdo.smartplug.udpserver.Function.NotifyEnergeHandle.resp(NotifyEnergeHandle.java:104)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:898)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:914)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:32:23 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 296>	<info:>java.sql.SQLException: Field 'module_name' doesn't have a default value
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Statement.executeUpdate(Statement.java:1402)
+	at com.mysql.jdbc.Statement.executeUpdate(Statement.java:1317)
+	at com.thingzdo.platform.DBTool.DBTool.executeUpdate(DBTool.java:132)
+	at com.thingzdo.platform.DBTool.DBTool.insert(DBTool.java:159)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.InsertModuleCharge(ServerDBMgr.java:292)
+	at com.thingzdo.smartplug.udpserver.Function.NotifyEnergeHandle.resp(NotifyEnergeHandle.java:104)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:898)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:914)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:32:50 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 296>	<info:>java.sql.SQLException: Field 'module_name' doesn't have a default value
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2985)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1631)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Statement.executeUpdate(Statement.java:1402)
+	at com.mysql.jdbc.Statement.executeUpdate(Statement.java:1317)
+	at com.thingzdo.platform.DBTool.DBTool.executeUpdate(DBTool.java:132)
+	at com.thingzdo.platform.DBTool.DBTool.insert(DBTool.java:159)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.InsertModuleCharge(ServerDBMgr.java:292)
+	at com.thingzdo.smartplug.udpserver.Function.NotifyEnergeHandle.resp(NotifyEnergeHandle.java:104)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:898)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:914)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

@@ -1,0 +1,12 @@
+15:45:02 [ERROR]	 SELF 	 Module(647136) not login. NO MODULE IP<ServerWorkThread.java: Line 454>
+15:45:02 [ERROR]	 SELF 	 Module(647136) not login. NO MODULE Port<ServerWorkThread.java: Line 466>
+15:46:41 [ERROR]	 SEND 	 (192.168.0.105:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+15:48:11 [ERROR]	 SELF 	 Module(647136) not login. NO MODULE IP<ServerWorkThread.java: Line 454>
+15:48:11 [ERROR]	 SELF 	 Module(647136) not login. NO MODULE Port<ServerWorkThread.java: Line 466>
+16:12:46 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+16:25:21 [ERROR]	 SELF 	 Module(648495) not login. NO MODULE IP<ServerWorkThread.java: Line 454>
+16:25:21 [ERROR]	 SELF 	 Module(648495) not login. NO MODULE Port<ServerWorkThread.java: Line 466>
+16:38:55 [ERROR]	 SELF 	 Module(648495) not login. NO MODULE IP<ServerWorkThread.java: Line 454>
+16:38:55 [ERROR]	 SELF 	 Module(648495) not login. NO MODULE Port<ServerWorkThread.java: Line 466>
+16:38:58 [ERROR]	 SELF 	 Module(648495) not login. NO MODULE IP<ServerWorkThread.java: Line 454>
+16:38:58 [ERROR]	 SELF 	 Module(648495) not login. NO MODULE Port<ServerWorkThread.java: Line 466>

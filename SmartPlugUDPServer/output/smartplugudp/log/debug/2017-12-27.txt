@@ -1,0 +1,239 @@
+09:38:05 [DEBUG]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 --------------param list begin------------<ServerParamConfiger.java: Line 167>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 iAppReceivedBufferSize=512 byte<ServerParamConfiger.java: Line 168>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleReceivedBufferSize=1024 byte<ServerParamConfiger.java: Line 169>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutAdjustTime=43200000 ms<ServerParamConfiger.java: Line 170>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleLogin=60000 ms<ServerParamConfiger.java: Line 171>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeoutModuleRespose=5000 ms<ServerParamConfiger.java: Line 172>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutHeartBeat=55000 ms<ServerParamConfiger.java: Line 173>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 iTimeOutUpdate=10000 ms<ServerParamConfiger.java: Line 174>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 iModuleRgbFreq=1000<ServerParamConfiger.java: Line 175>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 iMaxConnectNum=150<ServerParamConfiger.java: Line 176>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 strRecvFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/snap<ServerParamConfiger.java: Line 177>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 strLogFilePath=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/modulelog<ServerParamConfiger.java: Line 178>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 strIRFileName=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/IR_AirCon.json<ServerParamConfiger.java: Line 179>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 userbin0=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.512.new.bin<ServerParamConfiger.java: Line 180>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 userbin1=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.512.new.bin<ServerParamConfiger.java: Line 181>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 userbin2=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user1.1024.new.bin<ServerParamConfiger.java: Line 182>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 	 userbin3=D:/03taocode/thingzdo/CODE/Server/SmartPlugUDPServer/output/user2.1024.new.bin<ServerParamConfiger.java: Line 183>
+09:38:05 [DEBUG]	 SRV_SELF_LOG 	 --------------param list end------------<ServerParamConfiger.java: Line 184>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(0): com.mysql.jdbc.Connection@3a82f6ef<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(1): com.mysql.jdbc.Connection@36d4b5c<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(2): com.mysql.jdbc.Connection@396a51ab<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(3): com.mysql.jdbc.Connection@62ee68d8<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(4): com.mysql.jdbc.Connection@5419f379<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(5): com.mysql.jdbc.Connection@548a9f61<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(6): com.mysql.jdbc.Connection@2a5ca609<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(7): com.mysql.jdbc.Connection@8bd1b6a<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(8): com.mysql.jdbc.Connection@2b98378d<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection(9): com.mysql.jdbc.Connection@4c70fda8<DataSourcePool.java: Line 46>
+09:38:05 [DEBUG]	 SELF 	 init: MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 53>
+09:38:05 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 10<DataSourcePool.java: Line 90>
+09:38:07 [DEBUG]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+09:38:07 [DEBUG]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+09:38:07 [DEBUG]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+09:39:29 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 0,APPLOGIN,hexiaoxu,V1.2.0B0117,123456#<ServerWorkThread.java: Line 812>
+09:39:29 [DEBUG]	 SELF 	 Enter App Login(username:hexiaoxu) <AppLoginMsgHandle.java: Line 35>
+09:39:29 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:39:29 [DEBUG]	 SELF 	 app username:hexiaoxu, socket:(192.168.0.106:5002)<AppLoginMsgHandle.java: Line 111>
+09:39:29 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227093929,APPLOGIN,hexiaoxu,0,00000000,3624090@qq.com#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:39:29 [DEBUG]	 SELF 	 (192.168.0.106:5002)	 Succeed to Login(hexiaoxu). <AppLoginMsgHandle.java: Line 119>
+09:39:29 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:39:29 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227093929,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:39:29 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:39:29 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227093929,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,6_1,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:39:29 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:39:35 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227093929,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:39:35 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:39:35 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227093935,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,6_1,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:39:35 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:41:00 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227093935,APPLOGOUT,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:41:00 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [0,APPLOGOUT,hexiaoxu,0,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 307>
+09:41:00 [DEBUG]	 SELF 	 (192.168.0.106:5002)	 App(hexiaoxu) Succeed to Logout. <AppLogOutMsgHandle.java: Line 34>
+09:41:00 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000002).<ServerWorkThread.java: Line 900>
+09:41:18 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094216,APPLOGIN,hexiaoxu,V1.2.0B0117,123456#<ServerWorkThread.java: Line 812>
+09:41:18 [DEBUG]	 SELF 	 Enter App Login(username:hexiaoxu) <AppLoginMsgHandle.java: Line 35>
+09:41:18 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:41:18 [DEBUG]	 SELF 	 app username:hexiaoxu, socket:(192.168.0.106:5002)<AppLoginMsgHandle.java: Line 111>
+09:41:18 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094118,APPLOGIN,hexiaoxu,0,00000000,3624090@qq.com#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:41:18 [DEBUG]	 SELF 	 (192.168.0.106:5002)	 Succeed to Login(hexiaoxu). <AppLoginMsgHandle.java: Line 119>
+09:41:18 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:41:19 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094118,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:41:19 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:41:19 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094119,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,6_1,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:41:19 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:41:39 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094119,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:41:39 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:41:39 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094139,APPQRYPLUG,hexiaoxu,0,00000000,1,647634,thingzdo_647634,00:00:00:00:00:00,20161017A1V1.4,0001_0001,0,0,0,0,0,0,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:41:39 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:41:52 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094139,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:41:52 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:41:52 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094152,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,6_1,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:41:52 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:42:05 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094152,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:42:05 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:42:05 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094205,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,2_1,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:42:05 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:42:21 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094205,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:42:21 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:42:21 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094221,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,3_1,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:42:21 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:42:31 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094221,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:42:31 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:42:31 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094231,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,2_1,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:42:31 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:42:33 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094231,APPUSB,hexiaoxu,647928,0#<ServerWorkThread.java: Line 812>
+09:42:33 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:42:33 [DEBUG]	 SELF 	 (ModuleID:647928)	 module is offline.<ICallFunction.java: Line 426>
+09:42:33 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x30000001).<ServerWorkThread.java: Line 900>
+09:44:34 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094532,APPLOGIN,hexiaoxu,V1.2.0B0117,123456#<ServerWorkThread.java: Line 812>
+09:44:34 [DEBUG]	 SELF 	 Enter App Login(username:hexiaoxu) <AppLoginMsgHandle.java: Line 35>
+09:44:34 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:44:34 [DEBUG]	 SELF 	 app username:hexiaoxu, socket:(192.168.0.106:5002)<AppLoginMsgHandle.java: Line 111>
+09:44:34 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094434,APPLOGIN,hexiaoxu,0,00000000,3624090@qq.com#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:44:34 [DEBUG]	 SELF 	 (192.168.0.106:5002)	 Succeed to Login(hexiaoxu). <AppLoginMsgHandle.java: Line 119>
+09:44:34 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:44:35 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094434,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:44:35 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:44:35 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094435,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,2_1,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:44:35 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:44:37 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094435,APPLOGOUT,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:44:37 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [0,APPLOGOUT,hexiaoxu,0,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 307>
+09:44:37 [DEBUG]	 SELF 	 (192.168.0.106:5002)	 App(hexiaoxu) Succeed to Logout. <AppLogOutMsgHandle.java: Line 34>
+09:44:37 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000002).<ServerWorkThread.java: Line 900>
+09:46:09 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 0,APPLOGIN,hexiaoxu,V1.2.0B0117,123456#<ServerWorkThread.java: Line 812>
+09:46:09 [DEBUG]	 SELF 	 Enter App Login(username:hexiaoxu) <AppLoginMsgHandle.java: Line 35>
+09:46:09 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:46:09 [DEBUG]	 SELF 	 app username:hexiaoxu, socket:(192.168.0.106:5002)<AppLoginMsgHandle.java: Line 111>
+09:46:09 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094609,APPLOGIN,hexiaoxu,0,00000000,3624090@qq.com#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:46:09 [DEBUG]	 SELF 	 (192.168.0.106:5002)	 Succeed to Login(hexiaoxu). <AppLoginMsgHandle.java: Line 119>
+09:46:09 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:46:10 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094609,APPQRYPLUG,hexiaoxu#<ServerWorkThread.java: Line 812>
+09:46:10 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:46:10 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094610,APPQRYPLUG,hexiaoxu,0,00000000,1,647928,Thingzdo_647928_6_1,60:01:94:09:e2:f8,20171209A1V2.D,1_2,2,0,4,192.168.1.1,0,255,0,0,0,0#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:46:10 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:46:13 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094610,APPQRYIRDATA,hexiaoxu,647928,3#<ServerWorkThread.java: Line 812>
+09:46:13 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:46:13 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094613,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:46:13 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:46:14 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094613,APPQRYIRDATA,hexiaoxu,647928,1#<ServerWorkThread.java: Line 812>
+09:46:14 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:46:14 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094614,APPQRYIRDATA,hexiaoxu,0,00000000,1,-0036@-0037@-0038@三菱-0018@-0039@海尔-0008@-0070@-0071@-0072@-0073@-0030@-0074@-0031@-0075@-0032@-0076@-0077@-0034@-0078@-0035@-0079@-0003@-0047@-0004@-0048@-0005@-0049@-0006@-0007@-0009@-0081@-0082@-0083@-0040@-0084@-0041@-0085@-0086@-0043@-0087@-0044@-0088@-0001@-0045@-0089@-0002@-0046@-0014@-0058@-0697@-0015@-0016@-0017@-0019@志高-0090@-0091@-0092@-0093@-0050@-0094@-0095@-0052@-0096@-0053@-0097@-0010@-0054@-0098@-0011@-0055@-0099@-0012@-0056@-0013@-0057@-0069@-0027@-0028@-0029@格力-1001@-0060@-0061@-0062@-0063@-0020@-0064@-0021@-0065@-0022@-0066@-0023@-0067@-0100@-0024@-0068#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:46:14 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:46:22 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094614,APPQRYIRDATA,hexiaoxu,647928,3,#<ServerWorkThread.java: Line 812>
+09:46:22 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:46:22 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094622,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:46:22 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:46:23 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094622,APPQRYIRDATA,hexiaoxu,647928,2,-0016#<ServerWorkThread.java: Line 812>
+09:46:23 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:46:29 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094622,APPQRYIRDATA,hexiaoxu,647928,3#<ServerWorkThread.java: Line 812>
+09:46:29 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 8<DataSourcePool.java: Line 90>
+09:46:29 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094629,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:46:29 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:46:30 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094629,APPQRYIRDATA,hexiaoxu,647928,1#<ServerWorkThread.java: Line 812>
+09:46:30 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 8<DataSourcePool.java: Line 90>
+09:46:30 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094630,APPQRYIRDATA,hexiaoxu,0,00000000,1,-0036@-0037@-0038@三菱-0018@-0039@海尔-0008@-0070@-0071@-0072@-0073@-0030@-0074@-0031@-0075@-0032@-0076@-0077@-0034@-0078@-0035@-0079@-0003@-0047@-0004@-0048@-0005@-0049@-0006@-0007@-0009@-0081@-0082@-0083@-0040@-0084@-0041@-0085@-0086@-0043@-0087@-0044@-0088@-0001@-0045@-0089@-0002@-0046@-0014@-0058@-0697@-0015@-0016@-0017@-0019@志高-0090@-0091@-0092@-0093@-0050@-0094@-0095@-0052@-0096@-0053@-0097@-0010@-0054@-0098@-0011@-0055@-0099@-0012@-0056@-0013@-0057@-0069@-0027@-0028@-0029@格力-1001@-0060@-0061@-0062@-0063@-0020@-0064@-0021@-0065@-0022@-0066@-0023@-0067@-0100@-0024@-0068#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:46:30 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:46:47 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094630,APPQRYIRDATA,hexiaoxu,647928,3,#<ServerWorkThread.java: Line 812>
+09:46:47 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 8<DataSourcePool.java: Line 90>
+09:46:47 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094647,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:46:47 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:47:07 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094647,APPQRYIRDATA,hexiaoxu,647928,2,-0016#<ServerWorkThread.java: Line 812>
+09:47:07 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 8<DataSourcePool.java: Line 90>
+09:47:13 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094647,APPQRYIRDATA,hexiaoxu,647928,3,-0016#<ServerWorkThread.java: Line 812>
+09:47:13 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 7<DataSourcePool.java: Line 90>
+09:47:13 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094713,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:47:13 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:47:21 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094713,APPQRYIRDATA,hexiaoxu,647928,3#<ServerWorkThread.java: Line 812>
+09:47:21 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 7<DataSourcePool.java: Line 90>
+09:47:21 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094721,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:47:21 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:47:22 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094721,APPQRYIRDATA,hexiaoxu,647928,1#<ServerWorkThread.java: Line 812>
+09:47:22 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 7<DataSourcePool.java: Line 90>
+09:47:22 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094722,APPQRYIRDATA,hexiaoxu,0,00000000,1,-0036@-0037@-0038@三菱-0018@-0039@海尔-0008@-0070@-0071@-0072@-0073@-0030@-0074@-0031@-0075@-0032@-0076@-0077@-0034@-0078@-0035@-0079@-0003@-0047@-0004@-0048@-0005@-0049@-0006@-0007@-0009@-0081@-0082@-0083@-0040@-0084@-0041@-0085@-0086@-0043@-0087@-0044@-0088@-0001@-0045@-0089@-0002@-0046@-0014@-0058@-0697@-0015@-0016@-0017@-0019@志高-0090@-0091@-0092@-0093@-0050@-0094@-0095@-0052@-0096@-0053@-0097@-0010@-0054@-0098@-0011@-0055@-0099@-0012@-0056@-0013@-0057@-0069@-0027@-0028@-0029@格力-1001@-0060@-0061@-0062@-0063@-0020@-0064@-0021@-0065@-0022@-0066@-0023@-0067@-0100@-0024@-0068#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:47:22 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:47:41 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094722,APPQRYIRDATA,hexiaoxu,647928,3,#<ServerWorkThread.java: Line 812>
+09:47:41 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 7<DataSourcePool.java: Line 90>
+09:47:41 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094741,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:47:41 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:47:48 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094741,APPQRYIRDATA,hexiaoxu,647928,2,-0016#<ServerWorkThread.java: Line 812>
+09:47:48 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 7<DataSourcePool.java: Line 90>
+09:47:57 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094741,APPQRYIRDATA,hexiaoxu,647928,3,-0016#<ServerWorkThread.java: Line 812>
+09:47:57 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 6<DataSourcePool.java: Line 90>
+09:47:57 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094757,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:47:57 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:48:12 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094757,APPQRYIRDATA,hexiaoxu,647928,2,海尔-0008#<ServerWorkThread.java: Line 812>
+09:48:12 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 6<DataSourcePool.java: Line 90>
+09:48:25 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094757,APPQRYIRDATA,hexiaoxu,647928,2,-0016#<ServerWorkThread.java: Line 812>
+09:48:25 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 5<DataSourcePool.java: Line 90>
+09:49:28 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094757,APPQRYIRDATA,hexiaoxu,647928,3,-0016#<ServerWorkThread.java: Line 812>
+09:49:28 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 4<DataSourcePool.java: Line 90>
+09:49:28 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094928,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:49:28 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:49:29 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094928,APPQRYIRDATA,hexiaoxu,647928,3,-0016#<ServerWorkThread.java: Line 812>
+09:49:29 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 4<DataSourcePool.java: Line 90>
+09:49:29 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094929,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:49:29 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:49:48 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094929,APPQRYIRDATA,hexiaoxu,647928,3,-0016#<ServerWorkThread.java: Line 812>
+09:49:48 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 4<DataSourcePool.java: Line 90>
+09:49:48 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227094948,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:49:48 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:50:04 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227094948,APPQRYIRDATA,hexiaoxu,647928,3,-0016#<ServerWorkThread.java: Line 812>
+09:50:05 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 4<DataSourcePool.java: Line 90>
+09:50:05 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095005,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:50:05 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:51:56 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095005,APPQRYIRDATA,hexiaoxu,647928,3,-0016#<ServerWorkThread.java: Line 812>
+09:51:56 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 4<DataSourcePool.java: Line 90>
+09:51:56 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095156,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:51:56 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:52:20 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095156,APPQRYIRDATA,hexiaoxu,647928,2,-0020#<ServerWorkThread.java: Line 812>
+09:52:20 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 4<DataSourcePool.java: Line 90>
+09:53:07 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095156,APPQRYIRDATA,hexiaoxu,647928,3,-0020#<ServerWorkThread.java: Line 812>
+09:53:07 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 3<DataSourcePool.java: Line 90>
+09:53:07 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095307,APPQRYIRDATA,hexiaoxu,0,00000000,3,-0016#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:53:07 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:53:37 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095337,APPQRYIRDATA,hexiaoxu,647928,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 170>
+09:53:37 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:53:38 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095338,APPQRYIRDATA,hexiaoxu,647928,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 170>
+09:53:38 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:53:38 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095338,APPQRYIRDATA,hexiaoxu,647928,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 170>
+09:53:38 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:53:38 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095338,APPQRYIRDATA,hexiaoxu,647928,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 170>
+09:53:38 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:53:38 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095338,APPQRYIRDATA,hexiaoxu,647928,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 170>
+09:53:38 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:53:39 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095339,APPQRYIRDATA,hexiaoxu,647928,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 170>
+09:53:39 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:54:21 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095339,APPQRYIRDATA,hexiaoxu,647928,2,海尔-0008#<ServerWorkThread.java: Line 812>
+09:54:21 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:54:25 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095425,APPQRYIRDATA,hexiaoxu,647928,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 170>
+09:54:25 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:55:50 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095425,APPQRYIRDATA,hexiaoxu,647928,3,海尔-0008#<ServerWorkThread.java: Line 812>
+09:55:50 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:55:50 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095550,APPQRYIRDATA,hexiaoxu,0,00000000,3,海尔-0008#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:55:50 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:56:14 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095550,APPQRYIRDATA,hexiaoxu,647928,1#<ServerWorkThread.java: Line 812>
+09:56:14 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:56:14 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095614,APPQRYIRDATA,hexiaoxu,0,00000000,1,-0036@-0037@-0038@三菱-0018@-0039@海尔-0008@-0070@-0071@-0072@-0073@-0030@-0074@-0031@-0075@-0032@-0076@-0077@-0034@-0078@-0035@-0079@-0003@-0047@-0004@-0048@-0005@-0049@-0006@-0007@-0009@-0081@-0082@-0083@-0040@-0084@-0041@-0085@-0086@-0043@-0087@-0044@-0088@-0001@-0045@-0089@-0002@-0046@-0014@-0058@-0697@-0015@-0016@-0017@-0019@志高-0090@-0091@-0092@-0093@-0050@-0094@-0095@-0052@-0096@-0053@-0097@-0010@-0054@-0098@-0011@-0055@-0099@-0012@-0056@-0013@-0057@-0069@-0027@-0028@-0029@格力-1001@-0060@-0061@-0062@-0063@-0020@-0064@-0021@-0065@-0022@-0066@-0023@-0067@-0100@-0024@-0068#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:56:14 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:56:20 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095614,APPQRYIRDATA,hexiaoxu,647928,2,海尔-0008#<ServerWorkThread.java: Line 812>
+09:56:20 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:56:20 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095620,APPQRYIRDATA,hexiaoxu,647928,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 170>
+09:56:20 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:56:30 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095620,APPQRYIRDATA,hexiaoxu,647928,1#<ServerWorkThread.java: Line 812>
+09:56:30 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:56:30 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095630,APPQRYIRDATA,hexiaoxu,0,00000000,1,-0036@-0037@-0038@三菱-0018@-0039@海尔-0008@-0070@-0071@-0072@-0073@-0030@-0074@-0031@-0075@-0032@-0076@-0077@-0034@-0078@-0035@-0079@-0003@-0047@-0004@-0048@-0005@-0049@-0006@-0007@-0009@-0081@-0082@-0083@-0040@-0084@-0041@-0085@-0086@-0043@-0087@-0044@-0088@-0001@-0045@-0089@-0002@-0046@-0014@-0058@-0697@-0015@-0016@-0017@-0019@志高-0090@-0091@-0092@-0093@-0050@-0094@-0095@-0052@-0096@-0053@-0097@-0010@-0054@-0098@-0011@-0055@-0099@-0012@-0056@-0013@-0057@-0069@-0027@-0028@-0029@格力-1001@-0060@-0061@-0062@-0063@-0020@-0064@-0021@-0065@-0022@-0066@-0023@-0067@-0100@-0024@-0068#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:56:30 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:57:22 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095630,APPQRYIRDATA,hexiaoxu,647928,1#<ServerWorkThread.java: Line 812>
+09:57:22 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:57:22 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095722,APPQRYIRDATA,hexiaoxu,0,00000000,1,-0036@-0037@-0038@三菱-0018@-0039@海尔-0008@-0070@-0071@-0072@-0073@-0030@-0074@-0031@-0075@-0032@-0076@-0077@-0034@-0078@-0035@-0079@-0003@-0047@-0004@-0048@-0005@-0049@-0006@-0007@-0009@-0081@-0082@-0083@-0040@-0084@-0041@-0085@-0086@-0043@-0087@-0044@-0088@-0001@-0045@-0089@-0002@-0046@-0014@-0058@-0697@-0015@-0016@-0017@-0019@志高-0090@-0091@-0092@-0093@-0050@-0094@-0095@-0052@-0096@-0053@-0097@-0010@-0054@-0098@-0011@-0055@-0099@-0012@-0056@-0013@-0057@-0069@-0027@-0028@-0029@格力-1001@-0060@-0061@-0062@-0063@-0020@-0064@-0021@-0065@-0022@-0066@-0023@-0067@-0100@-0024@-0068#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:57:22 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:57:30 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095722,APPQRYIRDATA,hexiaoxu,647928,3,海尔-0008#<ServerWorkThread.java: Line 812>
+09:57:30 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:57:30 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095730,APPQRYIRDATA,hexiaoxu,0,00000000,3,海尔-0008#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 221>
+09:57:30 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>
+09:57:30 [DEBUG]	 RECV 	 (/192.168.0.106:5002)	 FromAPP: 20171227095730,APPQRYIRDATA,hexiaoxu,647928,2,海尔-0008#<ServerWorkThread.java: Line 812>
+09:57:30 [DEBUG]	 SELF 	 MSSQL Connection's size in Pool: 9<DataSourcePool.java: Line 90>
+09:57:30 [DEBUG]	 SEND 	 (192.168.0.106:5002)	 [20171227095730,APPQRYIRDATA,hexiaoxu,647928,00000000#] succeed to execute. (hexiaoxu)<ICallFunction.java: Line 170>
+09:57:30 [DEBUG]	 SELF 	 (/192.168.0.106:5002)	 Completed to Excute Command(Ret:0x00000000).<ServerWorkThread.java: Line 900>

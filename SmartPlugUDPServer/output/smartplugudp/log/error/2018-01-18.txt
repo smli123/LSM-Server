@@ -1,0 +1,89 @@
+10:52:07 [ERROR]	 RECV 	 (/192.168.0.103:5003)	 Invalid Msg Header:20180118105206,QRYGONGLV,Thingzdo,646962, 2018-01-18 10:52:06,2235,20180118105042,APPQRYGONGLV,hexiaoxu,646962#<ServerWorkThread.java: Line 813>
+10:52:52 [ERROR]	 RECV 	 (/192.168.0.103:5003)	 Invalid Msg Header:20180118105251,QRYGONGLV,Thingzdo,646962, 2018-01-18 10:52:51,252,20180118105042,APPQRYGONGLV,hexiaoxu,646962#<ServerWorkThread.java: Line 813>
+10:53:48 [ERROR]	 RECV 	 (/192.168.0.103:5003)	 Invalid Msg Header:20180118105346,QRYGONGLV,Thingzdo,646962, 2018-01-18 10:53:46,6891,20180118105042,APPQRYGONGLV,hexiaoxu,646962#<ServerWorkThread.java: Line 813>
+10:54:43 [ERROR]	 RECV 	 (/192.168.0.106:5002)	 Invalid Msg Header:20180118105437,APPQRYGONGLV,hexiaoxu,646962#<ServerWorkThread.java: Line 813>
+10:54:44 [ERROR]	 RECV 	 (/192.168.0.106:5002)	 Invalid Msg Header:20180118105437,APPQRYGONGLV,hexiaoxu,646962#<ServerWorkThread.java: Line 813>
+11:00:01 [ERROR]	 RECV 	 (/192.168.0.103:5003)	 Invalid Msg Header:20180118110000,NOTIFYENERGY,Thingzdo,646962,0,2018-01-18 11:00:00,ނ,=#<ServerWorkThread.java: Line 813>
+11:02:37 [ERROR]	 RECV 	 (/192.168.0.103:5003)	 Invalid Msg Header:20180118110236,QRYGONGLV,Thingzdo,646962, 2018-01-18 11:02:36,243,20180118110028,APPQRYGONGLV,hexiaoxu,646962#<ServerWorkThread.java: Line 813>
+11:03:47 [ERROR]	 SELF 	 (ModuleID:646962)	 module is offline.<ICallFunction.java: Line 426>
+11:04:34 [ERROR]	 RECV 	 (/192.168.0.103:5003)	 Invalid Msg Header:20180118110433,QRYGONGLV,Thingzdo,646962, 2018-01-18 11:04:33,244,20180118110349,APPQRYGONGLV,hexiaoxu,646962#<ServerWorkThread.java: Line 813>
+11:12:34 [ERROR]	 RECV 	 (/192.168.0.103:5003)	 Invalid Msg Header:20180118111233,QRYGONGLV,Thingzdo,646962, 2018-01-18 11:12:33,251,20180118104752,APPQRYGONGLV,hexiaoxu,646962#<ServerWorkThread.java: Line 815>
+11:14:22 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:14:48 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:16:18 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:17:18 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:21:17 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:22:17 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:23:17 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:24:17 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:24:49 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:26:20 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:26:39 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:27:39 [ERROR]	 SEND 	 user(Thingzdo) is offline.<ICallFunction.java: Line 199>
+11:39:20 [ERROR]	 RECV 	 (/192.168.0.103:5003)	 Invalid Msg Header:20180118110000,NOTIFYENERGY,Thingzdo,646962,0,2018-01-18 11:00:00,`Ԋ=#<ServerWorkThread.java: Line 815>
+11:42:37 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+11:49:02 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+11:49:17 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+11:51:47 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:00:07 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:00:57 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:06:27 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:06:47 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:08:37 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:09:17 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:20:07 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:23:04 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:25:54 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:27:31 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:38:09 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:41:18 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:44:19 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:45:56 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:46:51 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:48:49 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:49:14 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:50:38 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:52:40 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:53:31 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+12:55:06 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:03:49 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:13:07 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:15:14 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:15:31 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:21:54 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:26:45 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:31:58 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:33:12 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:35:44 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:39:10 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:48:04 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:48:24 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:49:20 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:49:42 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:50:05 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:51:44 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+13:59:41 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:04:26 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:05:39 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:07:33 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:08:09 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:12:16 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:14:33 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:16:41 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:18:30 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:22:18 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:23:04 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:25:38 [ERROR]	 SEND 	 user(hexiaoxu) is offline.<ICallFunction.java: Line 374>
+14:25:48 [ERROR]	 RECV 	 (/192.168.0.102:8080)	 Invalid Msg Header:100,NOTIFYENERGE,hexiaoxu,647564,0,2018-01-18 10:00:01,0.99#<ServerWorkThread.java: Line 815>
+14:25:50 [ERROR]	 RECV 	 (/192.168.0.102:8080)	 Invalid Msg Header:100,NOTIFYENERGE,hexiaoxu,647564,0,2018-01-18 10:00:01,0.99#<ServerWorkThread.java: Line 815>
+14:30:38 [ERROR]	 SELF 	 (646962)db operation failed. <NotifyEnergeHandle.java: Line 107>
+14:32:23 [ERROR]	 SELF 	 (646962)db operation failed. <NotifyEnergeHandle.java: Line 107>
+14:33:10 [ERROR]	 SELF 	 (646962)db operation failed. <NotifyEnergeHandle.java: Line 107>
+14:55:17 [ERROR]	 RECV 	 (/192.168.0.103:5003)	 Invalid Msg Header:20180118145514,SETSERVER,test,646962,0#<ServerWorkThread.java: Line 815>
+15:00:45 [ERROR]	 SELF 	 (ModuleID:646962)	 module is offline.<ICallFunction.java: Line 426>
+15:00:53 [ERROR]	 SELF 	 (ModuleID:646962)	 module is offline.<ICallFunction.java: Line 426>
+15:01:58 [ERROR]	 SELF 	 (ModuleID:646962)	 module is offline.<ICallFunction.java: Line 426>
+15:02:58 [ERROR]	 SELF 	 (ModuleID:646962)	 module is offline.<ICallFunction.java: Line 426>
+15:04:33 [ERROR]	 SELF 	 (ModuleID:646962)	 module is offline.<ICallFunction.java: Line 426>
+15:05:09 [ERROR]	 SELF 	 (ModuleID:646962)	 module is offline.<ICallFunction.java: Line 426>
+15:05:15 [ERROR]	 SELF 	 (ModuleID:646962)	 module is offline.<ICallFunction.java: Line 426>

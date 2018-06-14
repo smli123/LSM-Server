@@ -1,0 +1,2 @@
+10:36:24 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+10:40:34 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>

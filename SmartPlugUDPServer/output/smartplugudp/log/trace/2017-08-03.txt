@@ -1,0 +1,65 @@
+10:06:06 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+10:06:06 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+11:48:44 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+11:48:44 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+11:49:19 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+11:49:19 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+11:54:25 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+11:54:25 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+11:55:00 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+11:55:00 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+11:57:54 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+11:57:54 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+12:19:18 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+12:19:18 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:28:54 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:28:54 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:30:06 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:30:06 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:44:49 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:44:49 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:45:22 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:45:22 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:46:36 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:46:36 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:47:10 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:47:10 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+15:48:43 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+15:48:43 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:00:52 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:00:52 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:04:38 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:04:38 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:07:28 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:09:53 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:10:54 [TRACE]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+16:10:54 [TRACE]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+16:10:54 [TRACE]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+16:24:30 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:24:30 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:27:08 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:27:08 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:27:48 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:27:48 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:34:18 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:34:18 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:35:18 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:35:18 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:35:21 [TRACE]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+16:35:21 [TRACE]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+16:35:21 [TRACE]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+16:35:42 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:35:42 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:58:10 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:58:10 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:58:42 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:58:42 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+16:59:33 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+16:59:33 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:00:14 [TRACE]	 SELF 	 SmartPlugServer App Server started successfully.<Main.java: Line 29>
+17:00:14 [TRACE]	 SELF 	 Remote Debug Server started successfully.<Main.java: Line 33>
+17:00:14 [TRACE]	 SELF 	 Remote Debug UDP Server started successfully.<Main.java: Line 37>
+17:04:39 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:04:39 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
+17:04:55 [TRACE]	 SELF 	 ==========SmartPlugServer Begin============<Main.java: Line 16>
+17:04:55 [TRACE]	 SRV_SELF_LOG 	 Succeed to load server parameter.<ServerParamConfiger.java: Line 148>
