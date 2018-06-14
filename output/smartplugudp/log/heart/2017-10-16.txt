@@ -1,0 +1,10 @@
+15:23:16 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@300d2ea7
+15:26:04 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb
+15:26:59 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb
+15:27:54 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb
+15:28:46 [HEART]	 SELF 	 [800006]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@6f9b61cb
+15:28:49 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb
+15:29:44 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@13555fbb
+15:31:57 [HEART]	 SELF 	 [800006]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@2906cf34
+15:31:57 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@23ca3a31
+15:32:52 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@23ca3a31

@@ -1,0 +1,918 @@
+08:46:56 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 72>	<info:>com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2759)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+08:46:56 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 758>	<info:>com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2759)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3121)
+	at com.thingzdo.platform.DBTool.DBTool.executeQuery(DBTool.java:103)
+	at com.thingzdo.platform.DBTool.DBTool.query(DBTool.java:214)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.QueryModuleInfo(ServerDBMgr.java:735)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:81)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+08:46:56 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 939>	<info:>com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2759)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3121)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3103)
+	at com.thingzdo.platform.DBTool.DBTool.executeUpdate(DBTool.java:131)
+	at com.thingzdo.platform.DBTool.DBTool.insert(DBTool.java:159)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.InsertModuleInfo(ServerDBMgr.java:935)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:92)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+08:46:56 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 120>	<info:>com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Connection.close() has already been called. Invalid operation in this state.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.getMutex(Connection.java:3755)
+	at com.mysql.jdbc.Connection.rollback(Connection.java:5251)
+	at com.thingzdo.platform.DBTool.DBTool.rollback(DBTool.java:91)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Rollback(ServerDBMgr.java:115)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:97)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+08:46:56 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 88>	<info:>com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Connection.close() has already been called. Invalid operation in this state.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.getMutex(Connection.java:3755)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5412)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.EndTansacion(ServerDBMgr.java:83)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:98)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+08:47:01 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 72>	<info:>com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2759)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+08:47:01 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 758>	<info:>com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2759)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3121)
+	at com.thingzdo.platform.DBTool.DBTool.executeQuery(DBTool.java:103)
+	at com.thingzdo.platform.DBTool.DBTool.query(DBTool.java:214)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.QueryModuleInfo(ServerDBMgr.java:735)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:81)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+08:47:01 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 939>	<info:>com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.CommunicationsException
+MESSAGE: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: Software caused connection abort: socket write error
+
+STACKTRACE:
+
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2744)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 0 ms ago.
+	at com.mysql.jdbc.MysqlIO.send(MysqlIO.java:2759)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1612)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1723)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3277)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5442)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.BeginTansacion(ServerDBMgr.java:67)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:77)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+** END NESTED EXCEPTION **
+
+
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.checkClosed(Connection.java:1932)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3121)
+	at com.mysql.jdbc.Connection.createStatement(Connection.java:3103)
+	at com.thingzdo.platform.DBTool.DBTool.executeUpdate(DBTool.java:131)
+	at com.thingzdo.platform.DBTool.DBTool.insert(DBTool.java:159)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.InsertModuleInfo(ServerDBMgr.java:935)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:92)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+08:47:01 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 120>	<info:>com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Connection.close() has already been called. Invalid operation in this state.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.getMutex(Connection.java:3755)
+	at com.mysql.jdbc.Connection.rollback(Connection.java:5251)
+	at com.thingzdo.platform.DBTool.DBTool.rollback(DBTool.java:91)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.Rollback(ServerDBMgr.java:115)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:97)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+08:47:01 [EXCEPT]	 SRV_SELF_LOG <ServerDBMgr.java: Line 88>	<info:>com.mysql.jdbc.exceptions.MySQLNonTransientConnectionException: Connection.close() has already been called. Invalid operation in this state.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:888)
+	at com.mysql.jdbc.Connection.getMutex(Connection.java:3755)
+	at com.mysql.jdbc.Connection.setAutoCommit(Connection.java:5412)
+	at com.thingzdo.platform.DBTool.DBTool.setAutoCommit(DBTool.java:71)
+	at com.thingzdo.smartplug.udpserver.db.ServerDBMgr.EndTansacion(ServerDBMgr.java:83)
+	at com.thingzdo.smartplug.udpserver.Function.ModuleLoginHandle.resp(ModuleLoginHandle.java:98)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:877)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:43:29 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:43:29 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:19 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:19 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:20 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:20 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:21 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:21 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:23 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:25 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:25 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:26 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:28 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:49:33 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:53 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:54 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:54 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:56 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:57 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:57 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:58 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+14:59:59 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:08:22 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:08:23 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:08:23 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:08:24 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:08:24 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:08:25 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:08:26 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:08:27 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:20:31 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:20:32 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:20:32 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:20:34 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:20:35 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:20:36 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:20:37 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:58:41 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+15:58:44 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+16:43:00 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+16:43:01 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+17:02:48 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+17:03:36 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+17:03:36 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+17:03:37 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+17:03:37 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+17:03:38 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+17:03:38 [EXCEPT]	 SELF <ModuleAirConServerCtrlMsgHandle.java: Line 82>	java.lang.NullPointerException
+	at com.thingzdo.smartplug.udpserver.Function.ModuleAirConServerCtrlMsgHandle.call(ModuleAirConServerCtrlMsgHandle.java:68)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.ServerMsgHandle(ServerWorkThread.java:866)
+	at com.thingzdo.smartplug.udpserver.ServerWorkThread.run(ServerWorkThread.java:893)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

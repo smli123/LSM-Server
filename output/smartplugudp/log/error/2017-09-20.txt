@@ -1,0 +1,12 @@
+10:57:08 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:57:13 [ERROR]	 SEND 	 (192.168.0.104:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+15:49:28 [ERROR]	 SELF 	 (ModuleID:648534)	 module is offline.<ICallFunction.java: Line 426>
+16:04:00 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+16:04:02 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+16:17:45 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+16:17:45 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+16:17:46 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+16:17:46 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+23:47:04 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+23:50:05 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+23:50:33 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>

@@ -1,0 +1,9 @@
+15:22:21 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:23:17 [ERROR]	 SEND 	 (192.168.0.107:5002)	 [0,APPLOGIN,smli123,0,20000004#] user name not registered. (smli123)<ICallFunction.java: Line 316>
+15:27:07 [ERROR]	 SEND 	 user(smli123) is offline.<ICallFunction.java: Line 374>
+15:27:51 [ERROR]	 SEND 	 user(smli123) is offline.<ICallFunction.java: Line 374>
+15:30:38 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:31:02 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:31:02 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:33:36 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+15:33:36 [ERROR]	 SEND 	 user(laowang2) is offline.<ICallFunction.java: Line 374>

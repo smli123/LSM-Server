@@ -1,0 +1,11 @@
+14:47:09 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144709,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:11 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144711,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:14 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144714,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:15 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144715,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:22 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144722,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:25 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144725,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:29 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144729,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:31 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144731,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:37 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144737,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:39 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144739,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>
+14:47:48 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [20170830144748,APPUSB,smli123hz,648495,30000003#] module return error code. (smli123hz)<ICallFunction.java: Line 179>

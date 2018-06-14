@@ -1,0 +1,16 @@
+09:48:32 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170908094831,DISPLAYTIMER,test,648044,1,0#<ServerWorkThread.java: Line 794>
+09:49:25 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170908094924,DISPLAYTIMER,test,648044,1,0#<ServerWorkThread.java: Line 794>
+10:22:47 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+10:23:02 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:23:03 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:23:16 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123,0,20000004#] user name not registered. (smli123)<ICallFunction.java: Line 316>
+10:23:19 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123,0,20000004#] user name not registered. (smli123)<ICallFunction.java: Line 316>
+10:23:26 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:23:28 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:24:03 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:26:12 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:26:20 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:26:26 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,smli123hz,0,20000004#] user name not registered. (smli123hz)<ICallFunction.java: Line 316>
+10:32:08 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170908103207,ADDPACKET,test,648044,0,20170908103315,ADDPACKET,test,80001004,400,1,2,3,4,5,10:35,0111110,1,�v�#<ServerWorkThread.java: Line 794>
+10:34:01 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170908103400,DISPLAYTIMER,test,648044,0,1,400,-,0111110,10:35,5,1#<ServerWorkThread.java: Line 794>
+10:35:00 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170908103500,STARTPACKET,test,648044,0,400#<ServerWorkThread.java: Line 794>

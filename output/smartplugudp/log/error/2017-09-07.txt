@@ -1,0 +1,12 @@
+13:57:43 [ERROR]	 SEND 	 (192.168.0.102:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+14:10:01 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170907141000,STARTPACKET,test,648044,0,400#<ServerWorkThread.java: Line 794>
+14:40:01 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170907144000,STARTPACKET,test,648044,0,400#<ServerWorkThread.java: Line 794>
+16:59:16 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+17:53:00 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170907175259,ADDPACKET,test,648044,0,����������������,ADDPACKET,test,80001004,401,1,2,3,4,5,18:00,0111110,1,�v�#<ServerWorkThread.java: Line 794>
+17:55:36 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170907175535,ADDPACKET,test,648044,0,0,ADDPACKET,test,80001004,401,1,2,3,4,5,18:00,0111110,1,�v�#<ServerWorkThread.java: Line 794>
+18:00:00 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170907180000,STARTPACKET,test,648044,0,401#<ServerWorkThread.java: Line 794>
+18:07:50 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170907180749,ADDPACKET,test,648044,0,0,ADDPACKET,test,80001004,401,1,2,3,4,5,09:00,0111110,1,�v�#<ServerWorkThread.java: Line 794>
+18:08:50 [ERROR]	 RECV 	 (/192.168.0.108:5003)	 Invalid Msg Header:20170907180849,MODIFYPACKET,test,648044,0,20170907175251,MODIFYPACKET,test,80001004,400,1,2,3,4,5,09:00,0111110,1,@�\_��#<ServerWorkThread.java: Line 794>
+18:11:48 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+20:13:43 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>
+20:14:19 [ERROR]	 SEND 	 user(smli123hz) is offline.<ICallFunction.java: Line 374>

@@ -1,0 +1,2 @@
+09:54:40 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@79ea5691
+09:55:45 [HEART]	 SELF 	 [648534]Server receive heart package.TaskTimer:com.thingzdo.smartplug.udpserver.Function.ModuleHeartBeatTask@1cad017d

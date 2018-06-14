@@ -1,0 +1,17 @@
+15:53:50 [ERROR]	 SEND 	 (192.168.0.105:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+15:53:52 [ERROR]	 SEND 	 (192.168.0.105:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+15:53:52 [ERROR]	 SEND 	 (192.168.0.105:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+15:53:53 [ERROR]	 SEND 	 (192.168.0.105:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+15:53:53 [ERROR]	 SEND 	 (192.168.0.105:5002)	 [0,APPLOGIN,hexiaoxu,0,20000004#] user name not registered. (hexiaoxu)<ICallFunction.java: Line 316>
+15:56:21 [ERROR]	 SELF 	 (ModuleID:648495)	 module is offline.<ICallFunction.java: Line 426>
+15:56:29 [ERROR]	 SELF 	 (ModuleID:648495)	 module is offline.<ICallFunction.java: Line 426>
+15:56:37 [ERROR]	 SELF 	 (ModuleID:648495)	 module is offline.<ICallFunction.java: Line 426>
+15:58:01 [ERROR]	 SELF 	 (ModuleID:648495)	 module is offline.<ICallFunction.java: Line 426>
+15:58:31 [ERROR]	 SELF 	 (ModuleID:648495)	 module is offline.<ICallFunction.java: Line 426>
+15:59:01 [ERROR]	 SELF 	 (ModuleID:648495)	 module is offline.<ICallFunction.java: Line 426>
+15:59:29 [ERROR]	 SELF 	 (ModuleID:648495)	 module is offline.<ICallFunction.java: Line 426>
+16:00:57 [ERROR]	 SELF 	 (ModuleID:648495)	 module is offline.<ICallFunction.java: Line 426>
+16:31:58 [ERROR]	 SELF 	 (ModuleID:646715)	 module is offline.<ICallFunction.java: Line 426>
+16:32:30 [ERROR]	 SELF 	 (ModuleID:647106)	 module is offline.<ICallFunction.java: Line 426>
+16:35:09 [ERROR]	 SELF 	 (ModuleID:646715)	 module is offline.<ICallFunction.java: Line 426>
+16:35:27 [ERROR]	 SELF 	 (ModuleID:646715)	 module is offline.<ICallFunction.java: Line 426>

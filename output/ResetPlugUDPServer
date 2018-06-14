@@ -1,0 +1,4 @@
+#!/bin/sh
+ps -A |grep "java"| awk '{print "kill -9 "$1}'|sh
+
+java -jar /root/thingzdo/smartplugudp/SmartPlugUDPServer.jar&
